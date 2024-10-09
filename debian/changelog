@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-sigstore-fulcio (1.2.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Source-only re-upload for testing migration
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 22 Jun 2024 18:13:12 -0400
+
+golang-github-sigstore-fulcio (1.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1073554)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 17 Jun 2024 08:57:05 -0400
