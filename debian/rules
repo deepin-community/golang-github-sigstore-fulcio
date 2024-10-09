@@ -1,4 +1,9 @@
 #!/usr/bin/make -f
 
+# there are numerous unpackaged depedencies. Let's start with just those
+# libraries that are actually used by containers/image for now
+
+export DH_GOLANG_BUILDPKG := github.com/sigstore/fulcio/pkg/api github.com/sigstore/fulcio/pkg/certificate
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
